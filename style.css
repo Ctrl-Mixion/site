@@ -1,30 +1,59 @@
 body{
     background-color: black;
+    background-image:url("/images/geometric-1732847_1280.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
 }
 .navbar{
     display:flex;
-    flex-direction: row;
-    background-color:white;
+    flex-direction: column;
+    background-color:rgba(31, 43, 77, 0.11);
 }
 
 
 .menuItem{
-    width: 100px;
-    height: 25px;
-    padding:10px;
-    text-align: center;
-    font-size: 22px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin:5px;
+
 }
 
 .menuItem:hover{
-    background-color: rgb(67, 185, 176);
+    background-color: rgb(25, 29, 92);
+    border-radius: 5px;
+    
+   
 }
 
 a {
-    color:black;
+    color:rgb(152, 204, 219);
     text-decoration: none;
 }
 
-a:hover{
-    color: white;
-    }
+
+.nameBox{
+    width: 50%;
+    height: 250px;
+    background-color:rgb(178, 181, 216);
+   margin: 0 auto;
+     
+
+}
+
+#hello{
+    font-size: 1.5rem;
+    text-align: left;
+    height: 10%;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+
+}
+#name{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(128, 229, 229);
+    -webkit-text-stroke: 3px rgba(39, 74, 114, 0.596);
+
+}
